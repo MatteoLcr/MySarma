@@ -1,6 +1,6 @@
 <script setup>
 import { ArrowNarrowRightIcon } from '@heroicons/vue/solid';
-import Omninext_icon from '../../assets/box8/Omninext_icon.png';
+import Omninext_Icon from '../../assets/box8/Omninext_Icon.png';
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import Omninext_icon from '../../assets/box8/Omninext_icon.png';
     <div class="lg:w-full flex-col lg:flex-row lg:justify-center lg:items-center mt-30 lg:mt-50 px-5 lg:px-0">
         
         <div class="box8Container  lg:max-w-[1440px] lg:max-h-[362px] flex flex-col lg:flex-row lg:justify-evenly items-center rounded-4xl py-10 px-5">
-            <img :src="Omninext_icon" alt="" class="lg:w-[239px] h-[239px] mb-5 lg:mb-0">
+            <img :src="Omninext_Icon" alt="" class="lg:w-[239px] h-[239px] mb-5 lg:mb-0">
             
             <div class="lg:w-[557px]">
                 <h3 class="size32 lg:size48 colorBlue1">Facciamo parte</h3>
