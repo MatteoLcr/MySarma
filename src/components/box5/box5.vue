@@ -1,14 +1,14 @@
 <script setup>
-import Mano from '../../assets/box5/mano.png';
-import Calamita from '../../assets/box5/calamita.png';
-import Risparmio from '../../assets/box5/risparmio.png';
-import Successo from '../../assets/box5/successo.png';
+import Mano from '../../assets/box5/Mano.png';
+import Calamita from '../../assets/box5/Calamita.png';
+import Risparmio from '../../assets/box5/Risparmio.png';
+import Successo from '../../assets/box5/Successo.png';
 </script>
 
 <template>
     <div class="box5Container mx-auto flex flex-col justify-between items-center">
       <!-- Titolo -->
-      <div class="flex flex-col justify-center items-center mb-10 mt-40 lg:mb-25 lg:mt-20 px-5 lg:mt-0 text-center lg:text-start lg:px-0">
+      <div class="flex flex-col justify-center items-center mb-10 mt-40 lg:mb-25 px-5 lg:mt-0 text-center lg:text-start lg:px-0">
         <h3 class="size48 lg:size72 colorDarkBlue">Welfare aziendale?</h3>
         <p class="size24 colorGray2">Te lo diciamo noi se non lo sai</p>
       </div>
