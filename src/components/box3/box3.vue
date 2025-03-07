@@ -4,7 +4,7 @@ import 'vue3-carousel/dist/carousel.css';
 
 import Guru_img from '../../assets/box3/Guru_img.png';
 import Pianoforte from '../../assets/box3/Pianoforte.png';
-import Servizi_img from '../../assets/box3/Servizi_img.png';
+import Servizi from '../../assets/box3/Servizi.png';
 import Piattaforma_img from '../../assets/box3/Piattaforma_img.png';
 </script>
 
@@ -61,7 +61,7 @@ import Piattaforma_img from '../../assets/box3/Piattaforma_img.png';
                     </p>
                     <button class="text-white mt-10 mb-8">Scopri di più</button>
                 </div>
-                <img :src="Servizi_img" alt="Servizi" style="position: absolute; right: 0px;" />
+                <img :src="Servizi" alt="Servizi" style="position: absolute; right: 0px;" />
             </div>
         </Slide>
 
