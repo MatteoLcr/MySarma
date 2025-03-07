@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        display: block;
+    }
+}
+
+.size12{
+    font-size: 12px;
+    font-weight: 400;
+}
+.size14{
+    font-size: 14px;
+    font-weight: 400;
+}
+.size14_2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.size16{
+    font-size: 16px;
+    font-weight: 400;
+}
+.size16_2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.size18{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.size18_2{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.size18_3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.size22{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.size24{
+    font-size: 24px;
+    font-weight: 400;
+}
+.size24_2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.size24_3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.size32{
+    font-size: 32px;
+    font-weight: 700;
+}
+.size32_2{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.size38{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.size48{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.size60{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.size72{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.colorNightBlue{
+    color: #05071A;
+}
+
+.colorDarkBlue{
+   color: #112340
+}
+
+.colorBlue1 {
+    color: #2B50B0;
+}
+.colorBlue2 {
+    color:#426BD1;
+}
+
+.colorGray1{
+    color: #6D7791;
+}
+.colorGray2{
+    color: #7D8797
+}
+.colorLightGray{
+    color: #E8E8E8;
+}
+.colorLightGray2{
+    color: #D2DCF4;
+}
+.colorLightGray3{
+    color:#F1F0FA;
+}
+
+.colorViolet1{
+    color: #A1B5E8;
+}
+.colorViolet2{
+    color: #A9A5DF;
+}
+
+.btnWhiteLarge{
+    height: 50px;
+    width: 243px;
+    border: 2px solid #112340;
+    border-radius: 10px ;
+    font-size: 18px;
+    font-weight: 700;
+    color: #112340;
+    z-index: 5;
+}
+.btnWhiteLargeUnder{
+    position: relative;
+    bottom: 65px;
+    left: 5px;
+    height: 50px;
+    width: 243px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px ;
+    z-index: 4;
+}
+
