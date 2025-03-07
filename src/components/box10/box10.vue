@@ -8,7 +8,7 @@ import letter from '../../assets/box10/letter.png';
         backgroundColor: '#426BD1',
         backgroundBlendMode: 'multiply',
     }">
-        <div class="flex flex-col justify-center items-start my-20 lg:mt-0 lg:mt-0">
+        <div class="flex flex-col justify-center items-start my-20 lg:mt-0">
             <h5 class="size32 text-white mb-5 lg:mb-0">Resta aggiornato</h5>
             <p class="size18_2 colorLightGray2">Iscriviti alla newsletter per ricevere aggiornamenti </p>
             <p class="size18_2 colorLightGray2">sulle nuove offerte e partener MySarma</p>
