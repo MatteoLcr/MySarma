@@ -3,7 +3,7 @@ import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
 
 import Guru_img from '../../assets/box3/Guru_img.png';
-import Pianista_img from '../../assets/box3/Pianista_img.png';
+import PianistaImage from '../../assets/box3/PianistaImage.png';
 import Servizi_img from '../../assets/box3/Servizi_img.png';
 import Piattaforma_img from '../../assets/box3/Piattaforma_img.png';
 </script>
@@ -41,7 +41,7 @@ import Piattaforma_img from '../../assets/box3/Piattaforma_img.png';
                     </p>
                     <button class="text-white mt-20 mb-5">Scopri di più</button>
                 </div>
-                <img :src="Pianista_img" alt="Pianista" style="scale: 0.8;" />
+                <img :src="PianistaImage" alt="Pianista" style="scale: 0.8;" />
             </div>
         </Slide>
 
