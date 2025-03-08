@@ -28,7 +28,6 @@ import Omninext_Icon from '../../assets/box8/Omninext_Icon.png';
 
 <style scoped>
 .box8Container {
-    /* width: 1440px; */
     border: 1px solid #2B50B0;
 }
 </style>

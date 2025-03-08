@@ -73,7 +73,6 @@ const resetColor = () => {
 
         </div>
         <div class="dxBoxUnder hidden md:block"></div>
-        <!-- <div class="dxBoxUnder2 block md:hidden "></div> -->
     </div>
 </template>
 
@@ -96,17 +95,6 @@ const resetColor = () => {
     right: 203px;
     z-index: 1;
 }
-
-/* .dxBoxUnder2 {
-    width: 340px;
-    height: 608px;
-    background-color: #E6ECF9;
-    border-radius: 15px;
-    position: absolute;
-    top: 630px;
-    right: 35px;
-    z-index: 1;
-} */
 
 .divider {
     height: 3px;

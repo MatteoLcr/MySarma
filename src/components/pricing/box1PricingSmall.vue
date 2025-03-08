@@ -6,7 +6,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 
 const value = ref('')
 const toggleDisclosure = () => {
-    value.value = value.value === 'open' ? 'closed' : 'open';  // Alterna lo stato
+    value.value = value.value === 'open' ? 'closed' : 'open';
 };
 
 const btnBackground = ref("#E6ECF9");

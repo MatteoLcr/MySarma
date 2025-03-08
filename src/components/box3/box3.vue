@@ -83,7 +83,7 @@ import Piattaforma from '../../assets/box3/Piattaforma.png';
             </div>
         </Slide>
 
-        <!-- Aggiunge navigation e pagination -->
+   
         <template #addons>
             <!-- <Navigation /> -->
             <Pagination/>
@@ -93,7 +93,7 @@ import Piattaforma from '../../assets/box3/Piattaforma.png';
 </template>
 
 <style scoped>
-/* Contenitore principale del carousel */
+
 .customCarousel {
     width: 90%;
     max-width: 1200px;
@@ -101,7 +101,7 @@ import Piattaforma from '../../assets/box3/Piattaforma.png';
     padding: 40px 0;
 }
 
-/* Paginazione */
+
 .carousel__pagination {
     margin-top: 10px;
 }
@@ -115,35 +115,4 @@ import Piattaforma from '../../assets/box3/Piattaforma.png';
     background-color: white;
 }
 
-/* Navigazione */
-/* .carousel__prev,
-.carousel__next {
-    color: white;
-    font-size: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-/* Responsive */
-@media (max-width: 768px) {
-    .slide-content {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .text-content {
-        max-width: 100%;
-    }
-
-    .slide-content img {
-        margin-top: 20px;
-        width: 150px;
-    }
-}
 </style>

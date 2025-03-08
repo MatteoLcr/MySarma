@@ -41,19 +41,11 @@ const isOpen = ref(false);
         <!-- Menu per mobile -->
         <div v-if="isOpen" class="md:hidden flex flex-col p-4">
             <menuTendina />
-            <!-- <a href="#" class="colorBlue1 hover:underline">Welfare aziendale</a>
-            <a href="#" class="colorBlue1 hover:underline">Chi siamo</a>
-            <a href="#" class="colorBlue1 hover:underline">I nostri servizi</a>
-            <a href="#" class="colorBlue1 hover:underline">Soluzioni welfare</a>
-            <a href="#" class="colorBlue1 hover:underline">Blog</a> -->
         </div>
     </nav>
 </template>
 
 
-<style>
-/* .navBoxServizi a {
-    font-size: 14px;
-    font-weight: 700;
-} */
+<style scoped>
+
 </style>
